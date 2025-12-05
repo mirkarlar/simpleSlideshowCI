@@ -23,7 +23,7 @@ jobs:
           repository: InHolland-Cloud-Minor-2526/fotoshow
           ref: main
           path: fotoshow
-          token: ${{ secrets.fotoshow-InHolland2526-checkout-token}}
+          token: ${{ secrets.fotoshow-InHolland2526-checkout-token }}
           fetch-depth: 1
 
       - name: Set up JDK
